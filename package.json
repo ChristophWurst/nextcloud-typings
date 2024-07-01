@@ -15,6 +15,11 @@
   "scripts": {
     "format": "prettier -c .",
     "format:fix": "prettier -w .",
+    "lint": "eslint lib",
+    "lint:fix": "eslint --fix lib"
+  },
+  "eslintConfig": {
+    "extends": "@nextcloud/eslint-config/typescript"
   },
   "prettier": "@nextcloud/prettier-config",
   "keywords": [
