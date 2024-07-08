@@ -1,20 +1,25 @@
 <!--
   - SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
   - SPDX-License-Identifier: GPL-3.0-or-later
--->	
+-->
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
 
 ## 1.9.1 - 2024-07-04
+
 ### Fixed
-* fix: Add missing types for `OCP.Files.Router`
-* fix: Use Typescript source files for types
-* fix: Add missing types for confirmation dialogs
+
+-   fix: Add missing types for `OCP.Files.Router`
+-   fix: Use Typescript source files for types
+-   fix: Add missing types for confirmation dialogs
 
 ## 1.9.0 - 2024-06-25
+
 ### Added
-* feat: Add type information for Nextcloud 29
+
+-   feat: Add type information for Nextcloud 29
 
 ## 2.0.0
 

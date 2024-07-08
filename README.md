@@ -1,8 +1,10 @@
 <!--
   - SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
   - SPDX-License-Identifier: GPL-3.0-or-later
--->	
+-->
+
 # @nextcloud/typings
+
 [![NPM package](https://img.shields.io/npm/v/@nextcloud/typings)](https://www.npmjs.com/package/@nextcloud/typings)
 [![License](https://img.shields.io/npm/l/@nextcloud/typings?color=green)](https://github.com/nextcloud/nextcloud-typings/blob/master/LICENSE)
 [![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/nextcloud-typings)](https://api.reuse.software/info/github.com/nextcloud-libraries/nextcloud-typings)

@@ -14,7 +14,6 @@
   "license": "GPL-3.0-or-later",
   "author": "Nextcloud GmbH and Nextcloud contributors",
   "type": "module",
-  "types": "./lib/index.d.ts",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts"
@@ -26,7 +25,7 @@
       "types": "./lib/Nextcloud*/index.d.ts"
     }
   },
-  "typings": "lib/index.d.ts",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib",
     "AUTHORS.md",
@@ -40,10 +39,10 @@
     "lint:fix": "eslint --fix lib",
     "test": "tsc --noEmit"
   },
+  "prettier": "@nextcloud/prettier-config",
   "eslintConfig": {
     "extends": "@nextcloud/eslint-config/typescript"
   },
-  "prettier": "@nextcloud/prettier-config",
   "dependencies": {
     "@types/jquery": "^3.5.30"
   },
